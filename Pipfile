@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tqdm = "*"
+googletrans = "==4.0.0-rc1"
+python-pptx = "*"
+mljar-mercury = "*"
+jupyter-contrib-nbextensions = "*"
+
+[dev-packages]
+jupyter = "*"
+notebook = "*"
+
+[requires]
+python_version = "3.9"
